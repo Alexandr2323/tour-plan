@@ -8,6 +8,76 @@
   margin: auto;
 }
 
+.navbar-menu__link {
+  list-style-type: none;
+}
+
+.navbar {
+  background: white;
+}
+
+.navbar-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0 40px 0;
+}
+
+.navbar-search {
+  margin-right: auto;
+  margin-left: 108px;
+}
+
+.navbar .search {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+.navbar .search-input {
+  color: #333333;
+  width: 350px;
+  height: 40px;
+  border: none;
+  font-size: 12px;
+  background: #F5FAFE;
+  padding-left: 13px;
+  padding-right: 75px;
+}
+
+.navbar .search-button {
+  background: #EC1F46;
+  padding: 0;
+  width: 65px;
+  height: 40px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border: none;
+}
+
+.navbar .user {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.navbar .user-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.navbar .user-name {
+  font-family: Mulish;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333333;
+  padding-left: 18px;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
