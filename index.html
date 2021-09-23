@@ -11,6 +11,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700&family=Nunito:wght@400;600;800&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -33,6 +34,11 @@
                     <span class="user-name">Nathan</span>
                 </a>
                 <!-- /.user -->
+                <button class="menu-button navbar-top__menu-button">
+                    <span class="menu-button__line"></span>
+                    <span class="menu-button__line"></span>
+                    <span class="menu-button__line"></span>
+                </button>
             </div>
             <!-- /.navbar-top -->
 
@@ -52,6 +58,54 @@
             </div>
         </div>
     </header>
+    <nav class="breadcrumb">
+        <div class="container">
+            <ul class="breadcrumb-list">
+                <li class="breadcrumb-list__item">
+                    <a href="#" class="breadcrumb-list__link">home</a>
+                </li>
+                <li class="breadcrumb-list__item">
+                    <a href="#" class="breadcrumb-list__link">flash offers</a>
+                </li>
+                <li class="breadcrumb-list__item">
+                    grand hilton hotel
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="hotel">
+        <div class="container">
+            <div class="hotel-wrapper">
+                <div class="hotel-wrapper__text">
+                    <div class="star"> </div>
+                    <h1 class="hotel-name"></h1>
+                    <span class="offer">flash offer</span>
+                </div>
+                <div class="hotel-wrapper__rating">
+                    <span class="rating-text"></span>
+                    <span class="rating-counter"></span>
+                </div>
+            </div>
+            <div class="hotel-grid">
+                <div class="slider">
+                    <div class="swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide"><img src="/img/Rectangle111.png" alt=""></div>
+                            <div class="swiper-slide"><img src="/img/Rectangle111.png" alt=""></div>
+                            <div class="swiper-slide"><img src="/img/Rectangle111.png" alt=""></div>
+                        </div>
+                        <!-- If we need navigation buttons -->
+                        <button class="swiper-button swiper-button__next"><img src="/img/arow-next.svg" alt=""></button>
+                        <button class="swiper-button swiper-button__prev"><img src="/img/arow-prev.svg" alt=""></button>
+                    </div>
+                </div>
+            </div>
+            <!-- /.container -->
+    </section>
+    <script src="/js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
