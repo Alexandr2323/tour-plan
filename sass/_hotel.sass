@@ -1,3 +1,116 @@
+.slider
+  max-width: 728px
+  height: 100%
+  
+.swiper 
+  width: 100%
+  height: 450px
+  position: relative
+  border-radius: 8px
+  &:after
+    content: ""
+    z-index: 9
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+    position: absolute
+    width: 100%
+    height: 100%
+    background: linear-gradient(180deg, rgba(0, 122, 223, 0.48) 0%, rgba(255, 255, 255, 0.128) 100%);
+  &-button
+    color: #8ae96a
+    top: 50%
+    transform: translateY(-50%)
+    z-index: 10
+    position: absolute
+    width: 30px
+    height: 30px
+    border: none
+    cursor: pointer
+    background-repeat: no-repeat
+    background-position: center
+    background-size: 10px
+    background-color: transparent
+    &__prev
+      left: 18px
+    &__next
+      right: 18px
+
+.hotel
+  &-grid
+    display: flex
+    justify-content: space-between
+    margin-bottom: 30px
+  &-right
+    display: flex
+    flex-direction: column
+    justify-content: space-between
 .offer
   display: block
   margin-bottom: 30px
+.booking
+  color: $light
+  background: $dark
+  max-width: 350px
+  max-height: 210px
+  border-radius: 8px
+  padding: 28px
+  &__info
+    display: flex
+    justify-content: space-between
+  &__price
+    display: flex
+    flex-direction: column
+    margin-bottom: 8px
+  &__start
+    font-size: 10px
+    line-height: 14px
+  &__pricetag
+    font-weight: 800
+    font-size: 24px
+    line-height: 33px
+  &__per-room
+    font-size: 12px
+    line-height: 16px
+  &-room
+    margin-top: 4px
+    &__text
+      display: flex
+      justify-content: space-between
+      align-items: center
+    &__discription
+      font-size: 12px
+      line-height: 16px
+      margin-left: 9px
+.call-center
+  display: flex
+  justify-content: space-between
+  margin-bottom: 17px
+  &__number
+    display: flex
+    align-items: center
+  &__number-tel
+    margin-left: 8px
+    color: $light
+    text-decoration: none
+  &__text
+    font-weight: 600
+    font-size: 18px
+    line-height: 25px
+.button
+  padding: 13px 0
+  color: $light
+  border-radius: 4px
+  border: none
+  background: #EC1F46;
+  max-width: 295px
+  max-height: 45px
+  width: 100%
+  cursor: pointer
+
+ 
+.map-yandex
+  width: 350px
+  height: 210px
+  border-radius: 10px
